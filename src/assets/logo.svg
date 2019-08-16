@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="195px"
+   height="35px"
+   viewBox="0 0 195 35"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="1.7794872"
+     inkscape:cx="89.070605"
+     inkscape:cy="17.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group-3" />
+  <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+  <title
+     id="title2">logo</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Mobile"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="Home"
+       transform="translate(-90.000000, -325.000000)"
+       fill="#7159C1"
+       fill-rule="nonzero">
+      <g
+         id="Group"
+         transform="translate(30.000000, 325.000000)">
+        <g
+           id="logo"
+           transform="translate(60.000000, 0.000000)">
+          <g
+             id="Group-3">
+            <path
+               d="M7.97322498,13.4955137 L19.0000238,20.3035575 L11.3660862,26.6651722 L0.428573132,19.544628 L7.97322498,13.4955137 Z M29.9821798,25.8839213 L29.9821798,28.2946384 L19.0446668,34.8348248 L19.0446668,34.8571463 L19.0223453,34.8348248 L19.0000238,34.8571463 L19.0000238,34.8348248 L8.08483226,28.2946384 L8.08483226,25.8839213 L11.3660862,28.026781 L19.0000238,21.6874877 L19.0000238,21.6428448 L19.0223453,21.6651663 L19.0446668,21.6428448 L19.0446668,21.6874877 L26.7009259,28.026781 L29.9821798,25.8839213 Z M11.3660862,0.348176554 L19.0000238,6.70979128 L7.97322498,13.4955137 L0.428573132,7.46872076 L11.3660862,0.348176554 Z M30.0268227,13.4955137 L37.5714746,19.544628 L26.656283,26.6651722 L19.0000238,20.3035575 L30.0268227,13.4955137 Z M26.656283,0.348176554 L37.5714746,7.46872076 L30.0268227,13.4955137 L19.0000238,6.70979128 L26.656283,0.348176554 Z"
+               id="" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+               x="83.023438"
+               y="26.382812"
+               id="text4330"><tspan
+                 sodipodi:role="line"
+                 id="tspan4328"
+                 x="83.023438"
+                 y="62.876026"></tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#7159c1;fill-opacity:1;stroke:none"
+               x="56.979263"
+               y="26.438042"
+               id="text4334"><tspan
+                 sodipodi:role="line"
+                 id="tspan4332"
+                 x="56.979263"
+                 y="26.438042"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">TecprodBox</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
