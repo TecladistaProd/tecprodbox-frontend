@@ -26,10 +26,11 @@ class Box extends Component {
   }
 
   subscribeToNewFiles = () => {
-    const { box: { _id: box } } = this.state
+    const { match: { params: { id: box_id } } } = this.props
+
     const io = socket('https://tecprodbox-backend.herokuapp.com')
 
-    io.emit('connect_room', box)
+    io.emit('connect_room', box_id)
   
     io.on('file', data => {
       this.setState({ box: { ...this.state.box, files: [data, ...this.state.box.files] } })
