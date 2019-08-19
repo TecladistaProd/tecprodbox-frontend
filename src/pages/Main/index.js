@@ -1,14 +1,29 @@
 import React, { Component } from 'react';
 import api from '../../services/api'
 
-import './styles.css';
+import { Container } from './styles'
 
 import logo from '../../assets/logo.svg'
 
+import Modal from '../../components/Modal'
+
 class Main extends Component {
   state = {
-    box_name: ''
+    box_name: '',
+    show: false,
+    boxes: []
   };
+
+  async componentDidMount() {
+    const box_id = localStorage.getItem('box')
+    const {data: boxes} = await api.get('boxes');
+
+    if (box_id) {
+      this.openBox(box_id);
+    } else {
+      this.setState({boxes});
+    }
+  }
 
   handleSubmit = async e => {
     e.preventDefault();
@@ -19,16 +34,21 @@ class Main extends Component {
 
     this.setState({ box_name: '' });
     
-    this.props.history.push(`/box/${response.data._id}`)
+    this.openBox(response.data._id)
   };
   
   handleInputChange = ({target: { value: box_name }}) => {
     this.setState({ box_name });
   };
 
+  openBox = (_id) => {
+    localStorage.setItem('box', _id)
+    this.props.history.push(`/box/${_id}`)
+  }
+
   render() {
     return (
-      <div id="main-container">
+      <Container>
         <form onSubmit={this.handleSubmit}>
           <img src={logo} alt=""/>
           <input
@@ -38,8 +58,19 @@ class Main extends Component {
             onChange={this.handleInputChange}
           />
           <button type="submit">Create</button>
+          <button onClick={() => this.setState({show: true})} type="button" className="created">Created Boxes</button>
         </form>
-      </div>
+        <Modal
+          close={() => this.setState({show: false})}
+          show={this.state.show}>
+          <div className="list">
+            <h1>List of Boxes</h1>
+            {
+              this.state.boxes.map(i => <button className="box-btn" type="button" onClick={() => this.openBox(i._id)} key={i._id}>{i.title}</button>)
+            }
+          </div>
+        </Modal>
+      </Container>
     );
   };
 }
