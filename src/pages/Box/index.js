@@ -95,7 +95,7 @@ class Box extends Component {
           new_name: `${this.state.new_name}.${this.state.file.title.split('.')[1]}`,
         });
       } catch (err) {} finally {
-        this.setState({ new_name: '', file: {}})
+        this.setState({ new_name: '', file: {}, show: false})
       }
     }
   }
